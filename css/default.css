@@ -38,12 +38,14 @@
 }
 
 .yasoy {
+    background-color: #000;
     background-image: url('../imgs/soyBroker.png');
     background-size: cover;
     background-position: center;
     height: 45vh;
 }
 .quieroser {
+    background-color: #000;
     background-image: url('../imgs/QuieroSerBroker.png');
     background-size: cover;
     background-position: center top;
