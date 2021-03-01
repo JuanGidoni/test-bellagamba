@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    --main-bg-color: #1d1d1d;
+    --secondary-bg-color: #ed632f;
+    --tertiary-bg-color: #fff;
+    --first-text-color: #1d1d1d;
+    --second-text-color: #ed632f;
+    --third-text-color: #fff;
+}
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* colors */
+.first-color {
+    color:var(--first-text-color)
+}
+.second-color {
+    color:var(--second-text-color)
+}
+.third-color {
+    color:var(--third-text-color)
+}
+
+/* estilos */
+.header {
+    height: 10vh;
+    background: var(--main-bg-color) 0% 0% no-repeat padding-box;
+}
+.footer {
+    height: 10vh;
+    background: var(--tertiary-bg-color) 0% 0% no-repeat padding-box;    
+}
+
+.yasoy {
+    background-image: url('../imgs/soyBroker.png');
+    background-size: cover;
+    background-position: center;
+    height: 45vh;
+}
+.quieroser {
+    background-image: url('../imgs/QuieroSerBroker.png');
+    background-size: cover;
+    background-position: center top;
+    height: 45vh;
+}
+.text-box {
+    font-size:32px;
+    text-align: left;
+    padding:.5em;
+    font-family: 'Poppins', sans-serif;
+    color:var(--third-text-color);
+}
+.arrow-box {
+    font-size:32px;
+    padding-left:.5em;
+    color:var(--third-text-color);
+}
+.content-box:hover {
+    border:1px solid var(--second-text-color);
+    cursor:pointer;
+}
+.img-fluid {
+    max-width:100%;
+    height: auto;
+}
+
+/* estilos textos */
+.main-text-right {
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: right;
+    width:100%;
+}
+.main-text-left {
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    width:100%;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.main-quieroser {
+    border-bottom: 1px solid var(--main-bg-color);
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.contact {
+    background-color: var(--main-bg-color);
+}
+.contact-quieroser {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+}
+.line {
+    border-bottom: 1px solid var(--tertiary-bg-color);
+}
+.line-arrow {
+    border-bottom: 8px solid var(--secondary-bg-color);
+    height: 38px;
+    width:80px;
+}
+.the-arrow {
+    font-size:3em;
+    margin-left:-2px;
+    margin-right: 35px;
+}
+.the-text {
+    font-size:3em;
+    line-height: 36px;
+}
+.form-bellagamba input {
+    border:1px solid var(--third-text-color);
+    background-color: var(--main-bg-color);
+    padding: 1em;
+    transition: ease-in-out .3s;
+}
+.form-bellagamba .input-form {
+    width:100%;
+}
+.form-bellagamba input:hover {
+    border:1px solid var(--second-text-color);
+    cursor: pointer;
+    transition: ease-in-out .3s;
+
+}
+.form-bellagamba input:hover::placeholder {
+    color:var(--second-text-color);
+    transition: ease-in-out .3s;
+}
+.input-form-2 {
+    margin-right: .5em;
+}
+.btn-bellagamba {
+    border:1px solid var(--second-text-color);
+    background-color: var(--main-bg-color);
+    color:var(--second-text-color);
+    padding: 1em;
+    transition: ease-in-out .3s;
+}
+.btn-bellagamba:hover {
+    cursor: pointer;
+    border:1px solid var(--third-text-color);
+    color: var(--third-text-color);
+    transition: ease-in-out .3s;
+}
+.nav-link:hover {
+    color:var(--second-text-color) !important;
+}
+.seguinos {
+    text-align: center;
+}
+.divider {
+    width:100%;
+    position: relative;
+}
+/* circle effect rotate B */
+#circle svg { width: 100%;}
+#circle #textcircle { 
+    font-size: 29px;
+	font-weight: 900; 
+	text-transform: uppercase;
+	letter-spacing: 21px;
+	fill: var(--second-text-color);
+}
+#circle #insideText { 
+    font-size: 143px;
+    font-weight: 900; 
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 21px;
+    fill: var(--second-text-color);
+  }
+
+/* querys */
+
+@media all and (min-width: 768px) {
+    .quieroser {
+        height: 90vh;
+    }
+    .yasoy {
+        height: 90vh;
+    }
+    .main-text-right {
+        font-size:7em;
+    }
+    .main-text-left {
+        font-size:7em;
+    }
+    #circle svg { width: 23%;}
+    .the-text {
+        font-size:5em;
+        line-height: 82px;
+    }
+    .seguinos {
+        text-align: left;
+    }
+}
