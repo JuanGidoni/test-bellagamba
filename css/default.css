@@ -168,7 +168,7 @@
 .divider {
     width:100%;
     position: relative;
-    background: linear-gradient(0deg, rgba(0,0,0,1) 80%, rgba(255,255,255,1) 50%);
+    background: linear-gradient(0deg, #1d1d1d 80%, rgba(255,255,255,1) 50%);
 }
 /* circle effect rotate B */
 #circle svg { width: 100%;}
