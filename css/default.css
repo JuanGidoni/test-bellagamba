@@ -71,6 +71,17 @@
     cursor:pointer;
     transition: ease-in-out .3s;
 }
+.content-box2 {
+    transition: ease-in-out .3s;
+}
+.content-box2:hover {
+    background:rgba(211, 211, 211, 0.7);
+    cursor:pointer;
+    transition: ease-in-out .3s;
+}
+.content-box2:hover .text-box, .content-box2:hover .arrow-box {
+    color:var(--second-text-color) !important;
+}
 .img-fluid {
     max-width:100%;
     height: auto;
