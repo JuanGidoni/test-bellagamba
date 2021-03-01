@@ -65,7 +65,7 @@
     transition: ease-in-out .3s;
 }
 .content-box:hover {
-    border:1px solid var(--second-text-color);
+    background:rgba(237, 99, 49,.7);
     cursor:pointer;
     transition: ease-in-out .3s;
 }
