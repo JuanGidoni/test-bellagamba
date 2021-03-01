@@ -61,9 +61,13 @@
     padding-left:.5em;
     color:var(--third-text-color);
 }
+.content-box {
+    transition: ease-in-out .3s;
+}
 .content-box:hover {
     border:1px solid var(--second-text-color);
     cursor:pointer;
+    transition: ease-in-out .3s;
 }
 .img-fluid {
     max-width:100%;
